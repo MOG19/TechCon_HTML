@@ -16,19 +16,19 @@
         </nav>
     </header>
     <main>
-        <form>
+        <form action="/submit-form" method="post">
            <label for="fullname">Attendee's Fullname</label>
-           <input type="text" name="attendee's fullname" id="attendee's fullname" placeholder="John Doe">
+           <input type="text" name="attendee's fullname" placeholder="John Doe">
            <label for="email">Email</label>
-           <input type="text" name="email" id="email" placeholder="jdoe@example.com">
+           <input type="text" name="email" placeholder="jdoe@example.com">
            <label for="password">Password</label>
-           <input type="text" name="password" id="password" placeholder="Enter password">
+           <input type="text" name="password" placeholder="Enter password">
            <label for="password confirmation">Password Confirmation</label>
-           <input type="text" name="password confirmation" id="password confirmation" placeholder="Confirm password">
+           <input type="text" name="password confirmation" placeholder="Confirm password">
            <input type="checkbox">
            <label for="terms_and _conditions">I agree to the terms and conditions.</label>
            <label for="submit">Register Now</label>
-           <input type="button" value="submit">
+           <button type="submit">Submit</button>
         </form>
     </main>
     <footer>
